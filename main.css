@@ -1,25 +1,78 @@
-body {
-
-    max-width: 1200px;
-    margin: 0px auto;
-    padding: 0px 15px;
+img{
+ max-width: 100%;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: -60px;
+    border: 1px solid transparent;
 }
 
-@media (max-width:1920px)
+.one
 {
-    body{
-        max-width: 1200px;
-    }
+    position: absolute;
+    top: 18vw;
+    left: 8.9vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.8vw;
 }
-@media (max-width:992)
-{
-    body{
-        max-width: 750;
-    }
+
+
+.pc{
+    position: absolute;
+    top: 30.7vw;
+    left: 10vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4vw;
 }
-@media (max-width:767)
-{
-    body{
-        max-width: none;
-    }
+
+.two{
+    position: absolute;
+    top: 22.5vw;
+    left: 8.9vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2vw;
 }
+
+@media (max-width: 800px) { 
+    .one{
+        top: 20vw;
+        left: 7vw;
+        font-size: 7vw;
+    }
+    .two{
+        top: 42vw;
+        left: 7vw;
+        font-size: 4.7vw;
+    }
+    .pc{
+        top: 62vw;
+        left: 7vw;
+        font-size: 5.7vw;
+    }
+
+
+
+ }
+ @media (max-width: 575px) { 
+    .one{
+        top: 40vw;
+        left: 7vw;
+        font-size: 7vw;
+    }
+    .two{
+        top: 61vw;
+        left: 7vw;
+        font-size: 5vw;
+    }
+    .pc{
+        top: 82.4vw;
+        left: 7vw;
+        font-size: 3.5vw;
+
+    }
+
+ }
