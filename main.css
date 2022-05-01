@@ -164,13 +164,34 @@ img{
 }
 .sl8{
     position: absolute;
-    top: 362vw;
+    top: 365vw;
     left: 34vw;
     color:rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     font-size: 5vw;
     text-align: center;
 }
+.sl9{
+    position: absolute;
+    top: 382vw;
+    left: 3vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3vw;
+    text-align: center;
+    margin-right: 61vw;
+}
+.sl10{
+    position: absolute;
+    top: 382vw;
+    left: 70vw;
+    color:rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.3vw;
+    text-align: center;
+    margin-right: 5vw;
+}
+
 @media (max-width: 800px) { 
     .one{
         top: 20vw;
@@ -266,6 +287,27 @@ img{
         font-size: 2.5vw;
         text-align: center;
         margin-right: 9vw;
+    }
+    .sl8{
+        top: 830vw;
+        left: 22vw;
+        font-size: 9vw;
+        text-align: center;
+        margin-right: 9vw;
+    }
+    .sl9{
+        top: 870vw;
+        left: 1vw;
+        font-size: 3.4vw;
+        text-align: center;
+        margin-right:60vw;
+    }
+    .sl10{
+        top: 870vw;
+        left: 60vw;
+        font-size: 3.4vw;
+        text-align: center;
+        margin-right:5vw;
     }
  }
  @media (max-width: 575px) { 
@@ -365,5 +407,21 @@ img{
         left: 10vw;
         font-size: 2.5vw;
         text-align: right;
+    }  
+    .sl8{
+        top: 1165vw;
+        left: 21vw;
+        font-size: 9vw;
+        text-align: right;
+    }  
+    .sl9{
+        top: 1205vw;
+        left: 3vw;
+        font-size: 4vw;
+    }  
+    .sl10{
+        top: 1205vw;
+        left: 70vw;
+        font-size: 4vw;
     }  
  }
