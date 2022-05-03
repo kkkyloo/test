@@ -203,10 +203,9 @@ img{
         left: 7vw;
         font-size: 4.7vw;
     }
-    .pc{
-        top: 62vw;
-        left: 7vw;
-        font-size: 5.7vw;
+    .kundastemen{
+        top: 33vw;
+
     }
     .three{
         top: 120vw;
@@ -321,10 +320,9 @@ img{
         left: 7vw;
         font-size: 5vw;
     }
-    .pc{
-        top: 82.4vw;
-        left: 7vw;
-        font-size: 3.5vw;
+    .kundastemen{
+        top: 50vw;
+        font-size: 10vw;
 
     }
     .three{
@@ -425,3 +423,91 @@ img{
         font-size: 4vw;
     }  
  }
+
+ .forma-vkhoda {
+    background: none;
+    color: #e89ed6;
+    display: inline-block;
+    font-size: 2.2vw;
+    padding: 5px 18px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    transition: color .1s ease;
+    border-radius: 50px;
+  }
+
+  .forma-vkhoda.forma-vkhoda-big {
+    font-size: 18px;
+    padding: 15px 20px;
+    min-width: 100px;
+  }
+  .forma-vkhoda-close {
+    color: #e41434;
+    font-size: 35px;
+    text-decoration: none;
+    padding:10px;
+    position: absolute;
+    right: 7px;
+    top: 0;
+  }
+  .forma-vkhoda-close:hover {
+    color: #292828;
+  }
+  .povekunos:before {
+    content: "";
+    display: none;
+    background: rgba(19, 17, 18, 0.58);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+  .discovered:before {
+    display: block;
+  }
+  .discovered .povekunos-undes {
+    transform: translate(0, 0);
+    top: 20%;
+  }
+  .povekunos-undes {
+    background: #fefefe;
+    border: #292828 solid 0px;
+    border-radius: 5px;
+    margin-left: -198px;
+    text-align:center;
+    position: fixed;
+    left: 50%;
+    top: -100%;
+    z-index: 11;
+    width: 330px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.3);
+    transform: translate(0, -500%);
+    transition: transform 0.3s ease-out;
+  }
+  .povekunos-body {
+    padding: 18px;
+  }
+  .povekunos-body input {
+    width: 215px;
+    padding: 10px;
+    border: 1px solid #b1afaf;
+    color: #524c4c;
+    outline: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 8px;
+    border-radius: 5px;
+  }
+  .povekunos-header,
+  .povekunos-footer {
+    padding: 10px 20px;
+  }
+  .povekunos-header {
+    border-bottom: #e4dddd solid 1px;
+  }
+  .povekunos-header h2 {
+    font-size: 20px;
+  }
